@@ -45,17 +45,6 @@ export const BannerContent: FC = () => {
               </div>
             </button>
           </ScaleFade>
-
-          <div className="customer-link-content">
-            <ScaleFade in={true} delay={0.1}>
-              <a
-                href="https://app.sendwork.com.br"
-                style={{ marginRight: 20, color: "#FFF"}}
-              >
-                Área do Cliente
-              </a>
-            </ScaleFade>
-          </div>
         </div>
       </div>
     </Container>
