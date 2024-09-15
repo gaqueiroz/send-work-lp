@@ -1,13 +1,11 @@
 "use client";
 
-import { FC, useEffect, useMemo, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import Image from "next/image";
 
 import { Container } from "./styles";
 import { language } from "@/shared/language";
 import { RevealWrapper } from "next-reveal";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
 import { useMediaQuery } from "@/shared/utils/useMediaQuery";
 
 export const Customers: FC = () => {
